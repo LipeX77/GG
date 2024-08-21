@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namora Comigo?</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ff7a7a, #ffc0cb); /* Gradiente rosa */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #conteudo {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 80%;
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        h2 {
+            margin: 0 0 30px;
+            color: #333;
+            font-size: 2.5rem;
+        }
+
+        .btn {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+            font-size: 1.2rem;
+        }
+
+        .btn:hover {
+            background: #555;
+            transform: scale(1.1);
+        }
+
+        .btn:active {
+            background: #777;
+        }
+
+        /* Estilo para dispositivos móveis */
+        @media (max-width: 600px) {
+            #conteudo {
+                padding: 30px 15px 15px;
+            }
+
+            .btn {
+                padding: 8px 16px;
+                width: 100%;
+                box-sizing: border-box;
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="conteudo">
+        <h2>Aceita namorar comigo?</h2>
+        <button id="btn-sim" class="btn" onclick="sim()">SIM</button>
+        <button id="btn-nao" class="btn" onclick="desvia(this)" onmouseover="desvia(this)">NÃO</button>
+    </div>
+
+    <script>
+        function sim() {
+            alert("Agora estamos namorando, te amo indecisa S2 :)");
+            // Redireciona para um URL após clicar no SIM
+            location.href = "https://www.youtube.com/watch?v=a5vH9f0lHZg";
+        }
+
+        function desvia(btn) {
+            btn.style.position = 'absolute';
+            btn.style.top = geraPosicao(10, 80);
+            btn.style.left = geraPosicao(10, 80);
+            console.log('opa, desviei...');
+        }
+
+        function geraPosicao(min, max) {
+            return (Math.random() * (max - min) + min) + "%";
+        }
+    </script>
+</body>
+
+</html>
