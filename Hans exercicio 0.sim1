@@ -1,0 +1,91 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="FullAdder" CircId="FullAdder-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-444,-100" rotation="0" hflip="1" vflip="1" label="FullAdder-32" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,-316" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-36" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Switch" CircId="Switch-37" mainComp="false" Show_id="true" Show_Val="false" Pos="-472,-252" rotation="90" hflip="1" vflip="1" label="A0" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-38" mainComp="false" Show_id="true" Show_Val="false" Pos="-428,-256" rotation="90" hflip="1" vflip="1" label="A1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-39" mainComp="false" Show_id="true" Show_Val="false" Pos="-388,-256" rotation="90" hflip="1" vflip="1" label="A2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-40" mainComp="false" Show_id="true" Show_Val="false" Pos="-208,-252" rotation="90" hflip="1" vflip="1" label="B2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-41" mainComp="false" Show_id="true" Show_Val="false" Pos="-248,-252" rotation="90" hflip="1" vflip="1" label="B1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-42" mainComp="false" Show_id="true" Show_Val="false" Pos="-292,-252" rotation="90" hflip="1" vflip="1" label="B0" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="FullAdder" CircId="FullAdder-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-100" rotation="0" hflip="1" vflip="1" label="FullAdder-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="FullAdder" CircId="FullAdder-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-96" rotation="0" hflip="1" vflip="1" label="FullAdder-50" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Ground" CircId="Ground-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-68,-16" rotation="0" hflip="1" vflip="1" label="Ground-53" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-404,64" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-54" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,64" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-56" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-57" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,64" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-57" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,64" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-58" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Node" CircId="Node-43" mainComp="false" Pos="-248,-316" />
+
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="-292,-316" />
+
+<item itemtype="Node" CircId="Node-45" mainComp="false" Pos="-388,-316" />
+
+<item itemtype="Node" CircId="Node-46" mainComp="false" Pos="-428,-316" />
+
+<item itemtype="Node" CircId="Node-47" mainComp="false" Pos="-472,-316" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-43-1" endpinid="Switch-41-pinP0" pointList="-248,-316,-248,-268" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Node-43-2" endpinid="Switch-40-pinP0" pointList="-248,-316,-208,-316,-208,-268" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Node-44-1" endpinid="Switch-42-pinP0" pointList="-292,-316,-292,-268" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Node-44-2" endpinid="Node-43-0" pointList="-292,-316,-248,-316" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Switch-39-pinP0" endpinid="Node-45-1" pointList="-388,-272,-388,-316" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Node-45-2" endpinid="Node-44-0" pointList="-388,-316,-292,-316" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Switch-38-pinP0" endpinid="Node-46-1" pointList="-428,-272,-428,-316" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="Node-46-2" endpinid="Node-45-0" pointList="-428,-316,-388,-316" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Switch-37-pinP0" endpinid="Node-47-1" pointList="-472,-268,-472,-316" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Fixed Voltage-36-outnod" endpinid="Node-47-0" pointList="-480,-316,-472,-316" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-47-2" endpinid="Node-46-0" pointList="-472,-316,-428,-316" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Switch-37-switch0pinN" endpinid="FullAdder-32-in0" pointList="-472,-236,-472,-108,-460,-108" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Switch-42-switch0pinN" endpinid="FullAdder-32-in1" pointList="-292,-236,-512,-236,-512,-92,-460,-92" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="FullAdder-32-in2" endpinid="FullAdder-49-out1" pointList="-420,-108,-384,-108,-384,-64,-320,-64,-320,-92,-336,-92" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Switch-38-switch0pinN" endpinid="FullAdder-49-in0" pointList="-428,-240,-428,-108,-376,-108" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Switch-41-switch0pinN" endpinid="FullAdder-49-in1" pointList="-248,-236,-248,-192,-392,-192,-392,-92,-376,-92" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="FullAdder-49-in2" endpinid="FullAdder-50-out1" pointList="-336,-108,-288,-108,-288,-148,-200,-148,-200,-88,-228,-88" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Switch-39-switch0pinN" endpinid="FullAdder-50-in0" pointList="-388,-240,-388,-104,-268,-104" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Switch-40-switch0pinN" endpinid="FullAdder-50-in1" pointList="-208,-236,-208,-176,-304,-176,-304,-88,-268,-88" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="FullAdder-50-in2" endpinid="Ground-53-Gnd" pointList="-228,-104,-68,-104,-68,-32" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="FullAdder-32-out1" endpinid="7-Seg BCD-54-in0" pointList="-420,-92,-420,-32,-472,-32,-472,112,-392,112,-392,96" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="FullAdder-32-out0" endpinid="7-Seg BCD-56-in0" pointList="-420,-100,-372,-100,-372,112,-336,112,-336,96" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="FullAdder-49-out0" endpinid="7-Seg BCD-57-in0" pointList="-336,-100,-316,-100,-316,108,-276,108,-276,96" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="FullAdder-50-out0" endpinid="7-Seg BCD-58-in0" pointList="-228,-96,-192,-96,-192,108,-216,108,-216,96" />
+
+</circuit>
