@@ -30,3 +30,20 @@ media_total = soma_total / 10
 print("Idade média das mulheres:", media_mulheres)
 print("Idade média dos homens:", media_homens)
 print("Idade média do grupo:", media_total)
+
+
+def eh_primo(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+while True:
+    num = int(input("Digite um número: "))
+    if num == 1000:
+        break
+   if eh_primo(num):
+        print(f"{num} é primo.")
+![image](https://github.com/user-attachments/assets/e5315b18-ac9a-465c-b00d-441c014d745e)
